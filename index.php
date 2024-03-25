@@ -208,6 +208,7 @@
                 <li><a href="#" class="nav-item">Home</a></li>
                 <li><a href="#about" class="nav-item">About</a></li>
                 <li><a href="#contact" class="nav-item">Contact</a></li>
+                <li><a href="#Register" class="nav-item">Register</a></li>
             </ul>
             <div>
                 <a href="#" class="login nav-item" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fas fa-sign-in-alt" style="margin-right: 0.4rem;"></i>Login</a>
@@ -289,9 +290,11 @@
             <div>
                 <h1>About Us</h1>
                 <h4>Wanna know were it all started?</h4>
-                <p>
-                    It All started when the need of automating bus fare
-                </p>
+                <p>Welcome to our Electronic Bus Ticketing Software! We are a team of passionate Full Stack Software Engineering students undergoing the Holberton ALX program.</p>
+                <p>As part of our final project for the webstack portfolio, we have developed this application to revolutionize the bus ticketing process, making it easier and more convenient for passengers to book tickets online.</p>
+                <p>Our goal is to leverage our skills in frontend and backend development to create a seamless user experience while providing robust management tools for bus operators and administrators.</p>
+                <p>We are committed to delivering high-quality software solutions that meet the needs of our users and contribute to the advancement of technology.</p>
+                <p>Thank you for choosing our Electronic Bus Ticketing Software. We hope you enjoy using it!</p>
             </div>
         </section>
         <section id="contact">
