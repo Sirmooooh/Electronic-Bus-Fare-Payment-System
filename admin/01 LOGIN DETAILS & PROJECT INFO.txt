@@ -9,7 +9,7 @@
 
 **Login Details**
 
-Username: 
-Password: 
+Username: *******
+Password: *******
 
 
