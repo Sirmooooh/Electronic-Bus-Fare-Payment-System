@@ -1,28 +1,50 @@
- ELECTRONIC BUS TICKETING SOFTWARE
+Electronic Bus Fare Payment System (EBFPS)
+EBFPS is a web-based application designed to streamline the process of booking bus tickets and managing fare payments electronically. This system offers a user-friendly interface for passengers to easily book tickets, check PNR status, and Additionally, it provides robust management tools for bus operators and administrators to efficiently manage routes, buses, and bookings.
 
-INTRODUCTION
-The following system is supposed to allow Passengers to pay their bus fare and generate a ticket .
-It will also allow the admin to update routes , update the fleets etc
+git clone https://github.com/your-Sirmooooh/Electronic-Bus-Fare-Ticketing-Software.git
 
-BENEFITS OF THE SYSTEM
+cd EBFPS
 
-1 COST
-One of the drawbacks in the above systems is the cost incurred from deployment of the systems. To solve this we will make our system cost effective making it easily available 
+php -S localhost:8000
 
-2 REGULATION
-An evident challenge faced by passengers, particularly during peak periods such as festive seasons, revolves around the hike in bus fares, often resulting in fare exploitation. Our system will address this concern as SACCOs can  now be subjected to regulation bodies hence preventing fare manipulation and ensuring fair pricing practices for passengers
-
-3 TAXES
-The propose system will help avoid under taxing or over taxing. This will be possible as the system will provide the real exact earnings
-
-4 PAYMENTS
-The system will allow efficiency in terms of how much goes to the SACCO, conductor, driver or the owner of the vehicle.
-
-5 ROUTES
-Using this system will enable drivers and SACCO members to come up with routes that extend beyond traditional urban centers, facilitating enhanced connectivity and accessibility to many destinations.
+http://localhost:8000
 
 
-DEPLOYMENT
+Features
+Manage  bookings.
+Booking Management: Passengers can search for routes, select seats, and make bookings seamlessly.
+PNR Enquiry: Passengers can check the status of their bookings using their PNR (Passenger Name Record) numbers.
+Administrator Dashboard: Bus operators and administrators have access to a dashboard for managing routes, buses, and bookings.
 
-We are planning on deploying the project on control plane.
-At the time we are writing this the systm is not yet deployed and we are working witha staff to make it happen.
+API Documentation
+Routes
+GET /routes: Retrieve all available bus routes.
+GET /routes/:id: Retrieve details of a specific route by ID.
+POST /routes: Add a new route.
+PUT /routes/:id: Update details of an existing route.
+DELETE /routes/:id: Delete a route by ID.
+
+Bookings
+GET /bookings: Retrieve all bookings.
+GET /bookings/:pnr: Retrieve details of a booking by PNR.
+POST /bookings: Make a new booking.
+PUT /bookings/:pnr: Update details of an existing booking.
+DELETE /bookings/:pnr: Cancel a booking by PNR.
+
+Customers
+GET /customers: Retrieve all customers.
+GET /customers/:id: Retrieve details of a customer by ID.
+POST /customers: Add a new customer.
+PUT /customers/:id: Update details of an existing customer.
+DELETE /customers/:id: Delete a customer by ID.
+Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: PHP, MySQL
+Payment Gateway: Stripe API
+
+Contributors
+Moses Ngugi
+Muhammad Rabiu Usman
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
