@@ -180,30 +180,15 @@
                     </div>
 
                 </div>
-                <h4>Other Admin</h4>
-                <div id="admin">
-                    <?php 
-                        // Loop through Admin Data and show the admins in boxes other than the existing admin which is $user_id  == $_SESSION["user_id"]
-                        foreach($adminData as $admin)
-                        {
-                            $adminArr = get_object_vars($admin);
-                            if($adminArr["user_id"] == $user_id) 
-                                continue;
-                            $username = $adminArr["user_name"];
-                        ?>
-                            <div class="info-box admin-item">
-                                <img src="../assets/img/user-profile-min.png" height="100px" alt="Profile Pic">
-                                <h4><?php echo $username; ?></h4>
-                                <p class="bio">Other Admin</p>
-                            </div>
+                
                         <?php 
-                        }
+                        
                     ?>
                 </div>
             </section>
                 <footer>
                     <p>
-                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Bus Fare Electronic Payment System| Made with &#10084;&#65039; by Moses Ngugi
+                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Bus Fare Electronic Payment System| Made with &#10084;&#65039; by Moses Ngugi and Muhammad Rabiu
                         </p>
                 </footer>
         </div>
