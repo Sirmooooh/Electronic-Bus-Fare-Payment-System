@@ -36,7 +36,7 @@ POST /bookings: Make a new booking.
 PUT /bookings/:pnr: Update details of an existing booking.
 DELETE /bookings/:pnr: Cancel a booking by PNR.
 
-CUSTOMERS
+CUSTOMER.S
 
 GET /customers: Retrieve all customers.
 GET /customers/:id: Retrieve details of a customer by ID.
@@ -48,8 +48,8 @@ Frontend: HTML, CSS, JavaScript
 Backend: PHP, MySQL
 Payment Gateway: Stripe API
 
-Contributors
-Moses Ngugi
+Contributors,
+Moses Ngugi,
 Muhammad Rabiu Usman
 
 License
