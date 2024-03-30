@@ -300,9 +300,9 @@
         <section id="contact">
             <div id="contact-form">
                 <h1>Contact Us</h1>
-                <p>email address   busfare@ac.ke</p>
-                <P>location Ruiru </p>
-                <p> Contact No 070000000 </P>
+                <p>email address busfare@ac.ke</p>
+                <P>location NIGERIA </p>
+                <p> Contact No 08166392599 </P>
             </div>
         </section>
         <footer>
