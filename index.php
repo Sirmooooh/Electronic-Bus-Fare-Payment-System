@@ -307,7 +307,7 @@
         </section>
         <footer>
         <p>
-                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Electronic Bus fare Payment System| Made with &#10084;&#65039; by Moses Ngugi
+                        <i class="far fa-copyright"></i> <?php echo date('Y');?> - Electronic Bus fare Payment System| Made with &#10084;&#65039; by Moses Ngugi and Muhammad Rabiu
                         </p>
         </footer>
     </div>
