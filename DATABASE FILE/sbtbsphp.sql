@@ -42,14 +42,14 @@ CREATE TABLE `bookings` (
 --
 
 INSERT INTO `bookings` (`id`, `booking_id`, `customer_id`, `route_id`, `customer_route`, `booked_amount`, `booked_seat`, `booking_created`) VALUES
-(60, 'TBZJ360', 'CUST-2114034', 'RT-1908653', 'CITY1 &rarr; CITY2', 100, '3', '2021-10-16 22:15:13'),
+(60, 'TBZJ360', 'CUST-2114034', 'RT-1908653', 'CITY1 &rarr; CITY2', 100, '3', '2024-10-16 22:15:13'),
 (61, 'QK0MT61', 'CUST-2017936', 'RT-9941455', 'EDROISCHESTER &rarr; BRUGOW', 110, '15', '2021-10-17 22:36:10'),
-(62, 'A8L5662', 'CUST-5585037', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '2', '2021-10-18 00:08:51'),
-(63, 'QDNGC63', 'CUST-8996235', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '15', '2021-10-18 09:31:30'),
-(64, 'X34RW64', 'CUST-9474738', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '6', '2021-10-18 09:32:21'),
-(65, 'JKZVT65', 'CUST-4031139', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '18', '2021-10-18 09:33:36'),
-(66, 'HIIAN66', 'CUST-9997540', 'RT-5887160', 'FLORIA &rarr; ARKBY', 118, '16', '2021-10-18 09:40:16'),
-(67, 'QLOE167', 'CUST-9997540', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '12', '2021-10-18 09:41:01');
+(62, 'A8L5662', 'CUST-5585037', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '2', '2024-10-18 00:08:51'),
+(63, 'QDNGC63', 'CUST-8996235', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '15', '2024-10-18 09:31:30'),
+(64, 'X34RW64', 'CUST-9474738', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '6', '2024-10-18 09:32:21'),
+(65, 'JKZVT65', 'CUST-4031139', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '18', '2024-10-18 09:33:36'),
+(66, 'HIIAN66', 'CUST-9997540', 'RT-5887160', 'FLORIA &rarr; ARKBY', 118, '16', '2024-10-18 09:40:16'),
+(67, 'QLOE167', 'CUST-9997540', 'RT-3835554', 'ZEKA &rarr; ZREGOW', 70, '12', '2024-10-18 09:41:01');
 
 -- --------------------------------------------------------
 
