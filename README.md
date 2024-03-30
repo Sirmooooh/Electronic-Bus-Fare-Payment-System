@@ -1,4 +1,4 @@
-Electronic Bus Fare Payment System (EBFPS) 
+ ELECTRONIC BUS FARE PAYMENT SYSTEM (EBFPS) 
 
 
 EBFPS is a web-based application designed to streamline the process of booking bus tickets and managing fare payments electronically. This system offers a user-friendly interface for passengers to easily book tickets, check PNR status, and Additionally, it provides robust management tools for bus operators and administrators to efficiently manage routes, buses, and bookings.
