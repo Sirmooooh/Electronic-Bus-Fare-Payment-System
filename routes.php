@@ -114,7 +114,7 @@
             {
                 $citiesArr = explode(",",$row["route_cities"]);
                 
-                // Search the tables if we have any routes that matches the form details
+                // Search the tables if we have any routes that matches the form details.
                 if(!in_array($source, $citiesArr) || !in_array($destination, $citiesArr) || !(array_search($source, $citiesArr) < array_search($destination, $citiesArr)))
                     continue;
 
