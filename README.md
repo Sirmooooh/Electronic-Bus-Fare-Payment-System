@@ -7,9 +7,9 @@ git clone https://github.com/your-Sirmooooh/Electronic-Bus-Fare-Ticketing-Softwa
 
 cd EBFPS
 
-php -S localhost:8000
+php -S localhost:80
 
-http://localhost:8000
+http://localhost:80
 
 
 FEATURES
