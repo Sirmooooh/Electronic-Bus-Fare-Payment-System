@@ -200,7 +200,7 @@
     <header>
         <nav>
             <div>
-                    <a href="#" class="nav-item nav-logo">SBTBS</a>
+                    <a href="#" class="nav-item nav-logo">EBFPS</a>
                     <!-- <a href="#" class="nav-item">Gallery</a> -->
             </div>
                 
